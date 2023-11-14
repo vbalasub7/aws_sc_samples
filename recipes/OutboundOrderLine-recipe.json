@@ -1,0 +1,110 @@
+[
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "ProductIdentifier",
+        "targetColumn": "product_id"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "CorporateId",
+        "targetColumn": "company_id"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Location",
+        "targetColumn": "ship_from_site_id"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Supplier",
+        "targetColumn": "customer_tpartner_id"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Quantity",
+        "targetColumn": "final_quantity_requested"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "DeliverBy",
+        "targetColumn": "requested_delivery_date"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "OrderOn",
+        "targetColumn": "order_date"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "ActualDelivery",
+        "targetColumn": "actual_delivery_date"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "PromisedDeliveryDate",
+        "targetColumn": "promised_delivery_date"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "OrderStatus",
+        "targetColumn": "status"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "OrderId",
+        "targetColumn": "id"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "CustomerOrderId",
+        "targetColumn": "cust_order_id"
+      }
+    }
+  }
+]

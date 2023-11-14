@@ -1,0 +1,67 @@
+[
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "ProductIdentifier",
+        "targetColumn": "product_id"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "CorporateId",
+        "targetColumn": "company_id"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Location",
+        "targetColumn": "site_id"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Date",
+        "targetColumn": "snapshot_date"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "InventoryOH",
+        "targetColumn": "on_hand_inventory"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "AllocatedOH",
+        "targetColumn": "allocated_inventory"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "UNIX_TIME",
+      "Parameters": {
+        "dateTimeFormat": "yyyy-mm-dd*HH:MM:SS",
+        "functionStepType": "UNIX_TIME",
+        "sourceColumn": "snapshot_date",
+        "targetColumn": "snapshot_date_UNIXTIME"
+      }
+    }
+  }
+]
